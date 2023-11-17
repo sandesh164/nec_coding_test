@@ -11,7 +11,9 @@ Instructions:
 
 -Index.php is the main file in the repository which redirects to sign up page.
 
--Once the setup is done, enter the url ex: http://localhost/nec_coding_test/index
+-.php extenison has been removed using .htaccess file. So we can use urls without .php at the end.
+
+-Once the setup is done, enter the url ex: [http://localhost/nec_coding_test/index] OR [http://localhost/nec_coding_test/views/user_registration] 
 
 -Sign up page will be displayed where user can register using email, password and image.
 
