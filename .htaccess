@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine on 
+    RewriteCond %{REQUEST_FILENAME} !-d 
+    RewriteCond %{REQUEST_FILENAME}\.php -f 
+    RewriteRule ^(.*)$ $1.php
+
+    # Custom 404 page
+    ErrorDocument 404 /nec_coding_test/404.php
+
+</IfModule>
